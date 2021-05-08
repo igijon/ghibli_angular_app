@@ -14,6 +14,4 @@ The students will learn, through the step-by-step development of this applicatio
 
 You can see how to develop this application step by step in [link](https://www.youtube.com/playlist?list=PLKBxfVADNf1UJS3RcK0QVk3_CIKgYeDIl)
 
-<p align="center"> 
-  <img src="https://komarev.com/ghpvc/?username=igijon&label=Views&color=42b983&style=flat" alt="igijon" />
-</p>
+
