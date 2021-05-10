@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DescriptionComponent } from './core/components/description/description.component';
 
 const routes: Routes = [
   {
@@ -10,6 +9,10 @@ const routes: Routes = [
   {
     path: 'ghibli',
     loadChildren:() => import('./ghibli/ghibli.module').then((m) => m.GhibliModule),
+  },
+  {
+    path: '**',
+    redirectTo: ''
   }
 ];
 
