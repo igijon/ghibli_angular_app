@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-
+import { SharedModule } from '../shared/shared.module';
 import { CoreRoutingModule } from './core-routing.module';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -14,13 +13,12 @@ import { DescriptionComponent } from './components/description/description.compo
     DescriptionComponent,
   ],
   imports: [
-    CommonModule,
+    SharedModule,
     CoreRoutingModule
   ],
   exports: [
     NavbarComponent,
-    FooterComponent,
-    DescriptionComponent
+    FooterComponent
   ]
 })
 export class CoreModule { }
