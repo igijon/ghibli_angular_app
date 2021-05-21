@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
-
+import { SharedModule } from '../shared/shared.module';
 import { GhibliRoutingModule } from './ghibli-routing.module';
 import { FilmListComponent } from './components/films/film-list/film-list.component';
-import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
@@ -11,7 +10,7 @@ import { SharedModule } from '../shared/shared.module';
   ],
   imports: [
     SharedModule,
-    GhibliRoutingModule
+    GhibliRoutingModule,
   ]
 })
 export class GhibliModule { }
